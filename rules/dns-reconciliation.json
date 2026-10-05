@@ -1,0 +1,13 @@
+{
+  "schema": "subactor.digital-twin-rule/v1",
+  "id": "twin-cloudflare-dns-reconciliation",
+  "version": 1,
+  "kind": "dns_management_rule",
+  "target": "cloudflare_dns_zone",
+  "rule": {
+    "name": "dns_zone_reconciliation",
+    "description": "Reconciles A/AAAA/CNAME records between Plesk origin and Cloudflare DNS management plane",
+    "provider": "cloudflare",
+    "sync_mode": "cloudflaredns"
+  }
+}

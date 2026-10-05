@@ -1,0 +1,21 @@
+{
+  "name": "@subactor/twin-cloudflare",
+  "version": "1.0.0",
+  "description": "Digital Twin Docker simulation, DNS zone reconciliation rules and Tunnel ingress mockup for Cloudflare",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node src/index.mjs --test",
+    "smoke": "node src/index.mjs --smoke"
+  },
+  "keywords": [
+    "subactor",
+    "digital-twin",
+    "cloudflare",
+    "dns",
+    "tunnel",
+    "smoke-test"
+  ],
+  "author": "Subactor Platform Team",
+  "license": "UNLICENSED"
+}
